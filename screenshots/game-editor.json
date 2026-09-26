@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/jogo/demo-leoes",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "BamBam",
+      "hasCanvas": false,
+      "bodyTextLen": 1828,
+      "bodyTextHash": "416d07283b011c378a0f498ad68fc0b102c8584277de9061484c50c36d4b2122",
+      "bodyTextPrefix": "BamBam REGISTO DE JOGO 15 estatísticas · totais automáticos BAMB",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/game-editor.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "BamBam",
+      "hasCanvas": false,
+      "bodyTextLen": 1775,
+      "bodyTextHash": "be21d08d32312b2c091df5053c1b095fc9e552413d87209aa4ff74b50f25657c",
+      "bodyTextPrefix": "BamBam BAMBAM · #00 vs Leões 20/09/2026 · Pavilhão Municipal Nov",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/game-editor-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/game-editor.json"
+}

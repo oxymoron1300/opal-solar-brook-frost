@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #f3e9d7;
+  --color-paper: #faf4e8;
+  --color-cell: #f7e6c8;
+  --color-total: #efe4d2;
+  --color-fg: #2b231c;
+  --color-muted: #8c7b68;
+  --color-subtle: #b5a48e;
+  --color-primary: #c65a2e;
+  --color-primary-fg: #faf4e8;
+  --color-oak: #c9a882;
+  --color-border: #e4d4be;
+  --color-ink: #2b231c;
+  --color-good: #3f6b4a;
+  --color-danger: #a33b2b;
+  --color-ring: #c65a2e;
+
+  --font-sans: "Barlow", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-2xl: 1.75rem;
+
+  --shadow-border:
+    0 0 0 1px rgb(43 35 28 / 0.06),
+    0 1px 2px -1px rgb(43 35 28 / 0.06),
+    0 2px 8px 0 rgb(43 35 28 / 0.04);
+  --shadow-border-hover:
+    0 0 0 1px rgb(43 35 28 / 0.08),
+    0 1px 2px -1px rgb(43 35 28 / 0.08),
+    0 4px 12px 0 rgb(43 35 28 / 0.06);
+  --shadow-lift:
+    0 0 0 1px rgb(43 35 28 / 0.05),
+    0 8px 24px -8px rgb(43 35 28 / 0.16);
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    min-height: 100dvh;
+    background-image:
+      repeating-linear-gradient(
+        90deg,
+        transparent 0,
+        transparent 47px,
+        rgb(198 90 46 / 0.035) 47px,
+        rgb(198 90 46 / 0.035) 48px
+      );
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "BamBam",
+      "hasCanvas": false,
+      "bodyTextLen": 713,
+      "bodyTextHash": "d7a95de706e9f1f1d84da247b51d1b548acacce06a9f3afb89b5666ac35e69f3",
+      "bodyTextPrefix": "BamBam REGISTO DE JOGO 15 estatísticas · totais automáticos REGI",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "BamBam",
+      "hasCanvas": false,
+      "bodyTextLen": 660,
+      "bodyTextHash": "cb24a8fdda8a1b566fa820e01d564e807c94039c2f38713bace0c1326e68f579",
+      "bodyTextPrefix": "BamBam REGISTO INDIVIDUAL Caderno de jogo Quinze estatísticas po",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
